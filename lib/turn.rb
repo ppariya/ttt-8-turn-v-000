@@ -36,7 +36,7 @@ def turn(board)
     move(board, index , player = "X")
   else
     until valid_move? do
-      "Please enter 1-9:"
+        puts "Please enter 1-9:"
     end
   end
 
