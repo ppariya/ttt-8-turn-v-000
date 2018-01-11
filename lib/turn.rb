@@ -25,10 +25,10 @@ end
 
 def turn(board)
   puts "Please enter 1-9:"
-  def input_to_index(input.to_i)
+  def input_to_index(input)
     input = gets.strip
-    input.to_i - 1
-    index = input_to_index(input.to_i)
+    input.to_i -= 1
+    index = input_to_index(input)
   end
   until valid_move?(board, index) do
     puts "Please enter 1-9:"
