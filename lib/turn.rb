@@ -32,10 +32,10 @@ def turn(board)
     input.to_i - 1
   end
   index = input_to_index(input)
-  if valid_move?
+  if valid_move?(board, index)
     move(board, index , player = "X")
   else
-    until valid_move? do
+    until valid_move?(board, index) do
         puts "Please enter 1-9:"
     end
   end
