@@ -38,7 +38,7 @@ def turn(board)
     until valid_move?(board, index) do
         puts "Please enter 1-9:"
         input_to_index(input)
-        break
+
     end
   end
 
