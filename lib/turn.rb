@@ -29,9 +29,5 @@ end
 def turn(board)
   "Please enter 1-9:"
 
-  until valid_move?(board, index) do
-    puts "Please enter 1-9:"
-  end
-  move(board, index , player = "X")
-  display_board(board)
+
 end
