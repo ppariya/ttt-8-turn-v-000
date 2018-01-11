@@ -29,6 +29,6 @@ def turn(board)
     input.to_i - 1
 
   end
-  
+
 
 end
